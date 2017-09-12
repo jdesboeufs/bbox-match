@@ -1,6 +1,6 @@
 {
   "name": "bbox-match",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "Just match bboxes",
   "main": "index.js",
   "repository": "git@github.com:jdesboeufs/bbox-match.git",
