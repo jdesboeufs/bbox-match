@@ -1,0 +1,29 @@
+{
+  "name": "bbox-match",
+  "version": "0.1.0-dev",
+  "description": "Just match bboxes",
+  "main": "index.js",
+  "repository": "git@github.com:jdesboeufs/bbox-match.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "xo",
+    "test": "ava"
+  },
+  "dependencies": {
+    "rbush": "^2.0.1"
+  },
+  "devDependencies": {
+    "@etalab/fr-bounding-boxes": "^0.1.3",
+    "ava": "^0.22.0",
+    "xo": "^0.18.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  }
+}
